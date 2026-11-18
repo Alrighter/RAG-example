@@ -1,10 +1,7 @@
+using RagExample.Models;
 using System.Text.Json;
 
 namespace RagExample;
-
-public record Chunk(string Source, int Index, string Text, float[] Vector);
-
-public record SearchHit(Chunk Chunk, float Score);
 
 public class VectorStore
 {

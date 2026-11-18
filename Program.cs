@@ -1,5 +1,6 @@
 using System.Text;
 using RagExample;
+using RagExample.Models;
 
 Console.OutputEncoding = Encoding.UTF8;
 Console.InputEncoding = Encoding.UTF8;
